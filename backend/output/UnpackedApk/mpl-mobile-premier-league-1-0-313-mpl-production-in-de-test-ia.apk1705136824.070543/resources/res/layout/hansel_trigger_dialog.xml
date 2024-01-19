@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/prompt_main" android:visibility="invisible" android:fitsSystemWindows="true" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/hansel_backdrop_view"/>
+    <RelativeLayout android:orientation="vertical" android:id="@+id/prompt_pnc" android:visibility="invisible" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/p_shadow_container" android:paddingLeft="@dimen/hansel_shadow_size" android:paddingTop="@dimen/hansel_shadow_size" android:paddingRight="@dimen/hansel_shadow_size" android:paddingBottom="@dimen/hansel_shadow_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/iv_arrow_top">
+            <View android:id="@+id/prompt_shadow" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <FrameLayout android:id="@+id/prompt" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/hansel_shadow_size" android:layout_marginTop="@dimen/hansel_shadow_size" android:layout_marginRight="@dimen/hansel_shadow_size" android:layout_marginBottom="@dimen/hansel_shadow_margin_bottom">
+                <FrameLayout android:id="@+id/prompt_content_view" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ScrollView android:id="@+id/content_scroll" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <TextView android:id="@+id/label0" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                            <FrameLayout android:id="@+id/frame_image_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <ImageView android:layout_gravity="center" android:id="@+id/img1" android:background="@color/hansel_placeholder_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true"/>
+                                <ProgressBar android:layout_gravity="center" android:id="@+id/img1_spinner" android:visibility="gone" android:layout_width="@dimen/hansel_img_placeholder" android:layout_height="@dimen/hansel_img_placeholder" android:indeterminateTint="@color/hansel_placeholder_spinner"/>
+                            </FrameLayout>
+                            <LinearLayout android:orientation="vertical" android:id="@+id/prompt_inner" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <RelativeLayout android:id="@+id/card_ha" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                    <FrameLayout android:id="@+id/frame_img_card_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+                                        <ImageView android:layout_gravity="top" android:id="@+id/img_h_left" android:background="@color/hansel_placeholder_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true"/>
+                                        <ProgressBar android:layout_gravity="center" android:id="@+id/img_h_spinner_left" android:visibility="gone" android:layout_width="@dimen/hansel_img_placeholder" android:layout_height="@dimen/hansel_img_placeholder" android:indeterminateTint="@color/hansel_placeholder_spinner"/>
+                                    </FrameLayout>
+                                    <TextView android:id="@+id/label4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toStartOf="@+id/frame_img_card_right" android:layout_toEndOf="@+id/frame_img_card_left"/>
+                                    <TextView android:id="@+id/label6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/label4" android:layout_toStartOf="@+id/frame_img_card_right" android:layout_toEndOf="@+id/frame_img_card_left"/>
+                                    <FrameLayout android:id="@+id/frame_img_card_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentEnd="true">
+                                        <ImageView android:layout_gravity="top" android:id="@+id/img_h_right" android:background="@color/hansel_placeholder_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true"/>
+                                        <ProgressBar android:layout_gravity="center" android:id="@+id/img_h_spinner_right" android:visibility="gone" android:layout_width="@dimen/hansel_img_placeholder" android:layout_height="@dimen/hansel_img_placeholder" android:indeterminateTint="@color/hansel_placeholder_spinner"/>
+                                    </FrameLayout>
+                                </RelativeLayout>
+                                <TextView android:id="@+id/label1" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                                <TextView android:id="@+id/label2" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                                <TextView android:id="@+id/label3" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/rating_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                                <TextView android:id="@+id/label5" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                                <RelativeLayout android:id="@+id/layout_nps" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="0dp">
+                                    <LinearLayout android:orientation="vertical" android:id="@+id/frame_nps" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                        <RadioGroup android:gravity="center" android:orientation="horizontal" android:id="@+id/nps_click" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                                        <SeekBar android:id="@+id/nps_seek_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" android:max="10" android:splitTrack="false" style="@style/Hansel_SeekBarDiscrete"/>
+                                    </LinearLayout>
+                                    <LinearLayout android:orientation="horizontal" android:id="@+id/layout_nps_hint" android:paddingLeft="6dp" android:paddingRight="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/frame_nps" android:layout_alignParentBottom="true">
+                                        <TextView android:textColor="@color/hansel_grey_text" android:id="@+id/nps_left" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+                                        <TextView android:textColor="@color/hansel_grey_text" android:gravity="right" android:id="@+id/nps_right" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+                                    </LinearLayout>
+                                </RelativeLayout>
+                                <TextView android:id="@+id/npsInputLabel" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                                <RadioGroup android:id="@+id/multichoice" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                                <EditText android:id="@+id/input1" android:layout_width="match_parent" android:layout_height="wrap_content" android:textCursorDrawable="@null"/>
+                                <TextView android:textColor="@color/hansel_red_error" android:id="@+id/input_err1" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                                <EditText android:id="@+id/input2" android:layout_width="match_parent" android:layout_height="wrap_content" android:textCursorDrawable="@null"/>
+                                <TextView android:textColor="@color/hansel_red_error" android:id="@+id/input_err2" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </ScrollView>
+                    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:id="@+id/layout_bottom_btn" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <io.hansel.userjourney.prompts.IndicatorView android:layout_gravity="center_vertical" android:id="@+id/stepper" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        <TextView android:id="@+id/btn1" style="@style/Hansel_Theme_Flat_Button"/>
+                        <View android:id="@+id/line_btn1" android:background="@android:color/transparent" android:layout_width="@dimen/hansel_btn_gap" android:layout_height="match_parent"/>
+                        <TextView android:id="@+id/btn2" style="@style/Hansel_Theme_Flat_Button"/>
+                        <View android:id="@+id/line_btn2" android:background="@android:color/transparent" android:layout_width="@dimen/hansel_btn_gap" android:layout_height="match_parent"/>
+                        <TextView android:id="@+id/btn3" style="@style/Hansel_Theme_Flat_Button"/>
+                    </LinearLayout>
+                </FrameLayout>
+                <FrameLayout android:layout_gravity="right" android:id="@+id/container_btnX" android:focusable="true" android:clickable="true" android:layout_width="@dimen/hansel_btnX_click" android:layout_height="@dimen/hansel_btnX_click">
+                    <ImageView android:layout_gravity="right" android:id="@+id/btnX" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:layout_marginBottom="0dp"/>
+                </FrameLayout>
+            </FrameLayout>
+        </FrameLayout>
+        <ImageView android:id="@+id/iv_hotspot_top" android:visibility="gone" android:layout_width="@dimen/hansel_hotspot_size" android:layout_height="@dimen/hansel_hotspot_size"/>
+        <ImageView android:id="@+id/iv_arrow_top" android:visibility="gone" android:layout_width="@dimen/hansel_arrow_width" android:layout_height="@dimen/hansel_arrow_height" android:layout_below="@+id/iv_hotspot_top"/>
+        <ImageView android:id="@+id/iv_arrow_bottom" android:visibility="gone" android:layout_width="@dimen/hansel_arrow_width" android:layout_height="@dimen/hansel_arrow_height" android:layout_below="@+id/p_shadow_container"/>
+        <ImageView android:id="@+id/iv_hotspot_bottom" android:visibility="gone" android:layout_width="@dimen/hansel_hotspot_size" android:layout_height="@dimen/hansel_hotspot_size" android:layout_below="@+id/iv_arrow_bottom"/>
+    </RelativeLayout>
+</FrameLayout>

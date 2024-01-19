@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="doc_chooser_button_width_max">375dp</dimen>
+    <dimen name="font_content_size">32sp</dimen>
+    <dimen name="font_error_content_size">26.6sp</dimen>
+    <dimen name="font_header_size">30.7sp</dimen>
+    <dimen name="font_small_size">20sp</dimen>
+    <dimen name="margin_doc_bottom">20dp</dimen>
+    <dimen name="margin_doc_branding_top">20dp</dimen>
+    <dimen name="margin_doc_button_nav">100dp</dimen>
+    <dimen name="margin_doc_button_no_nav">80dp</dimen>
+    <dimen name="margin_doc_desc_top">80dp</dimen>
+    <dimen name="margin_doc_status_negative">-10dp</dimen>
+    <dimen name="margin_doc_status_top">40dp</dimen>
+    <dimen name="margin_doc_title_top">6dp</dimen>
+    <dimen name="margin_doc_top_bar_height_nav">60dp</dimen>
+    <dimen name="margin_doc_top_bar_height_no_nav">80dp</dimen>
+    <dimen name="margin_face_circle_top">140dp</dimen>
+    <dimen name="margin_face_status_bottom">30dp</dimen>
+    <dimen name="margin_face_status_end">30dp</dimen>
+    <dimen name="margin_face_status_start">30dp</dimen>
+    <dimen name="resource_button_size">80dp</dimen>
+    <dimen name="resource_camera_size">120dp</dimen>
+    <dimen name="resource_icon_size">60dp</dimen>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/hv_white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_gravity="top" android:id="@+id/camera_topbar" android:background="@color/top_bar_color" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:id="@+id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/errorReviewTitle" android:layout_centerHorizontal="true" style="@style/TextViewHeader"/>
+        <ImageView android:id="@+id/review_image" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:adjustViewBounds="true" android:layout_below="@+id/doc_desc_text" android:layout_centerHorizontal="true"/>
+        <TextView android:gravity="center" android:id="@+id/desc_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginTop="30dp" android:layout_marginRight="40dp" android:text="Eyes Closed" android:drawableLeft="@drawable/ic_failed" android:drawablePadding="15dp" android:layout_below="@+id/review_image" android:layout_centerHorizontal="true" android:letterSpacing="0.08" style="@style/ErrorTextViewContent"/>
+        <TextView android:gravity="center" android:id="@+id/doc_desc_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginTop="16dp" android:layout_marginRight="40dp" android:text="Non Live Document" android:drawableLeft="@drawable/ic_failed" android:drawablePadding="15dp" android:layout_below="@+id/title_text" android:layout_centerHorizontal="true" android:letterSpacing="0.08" style="@style/ErrorTextViewContent"/>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16dp" android:weightSum="1" android:layout_alignParentBottom="true">
+            <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/retake_button" android:layout_width="match_parent" android:layout_height="50dp" android:text="@string/errorReviewRetake" style="@style/ErrorButtonRoundedRectangleBorder"/>
+            <include layout="@layout/hv_layout_branding_and_trust"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

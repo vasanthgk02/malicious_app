@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/content_view_big" android:background="@android:color/white" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ViewFlipper android:id="@+id/carousel_image" android:layout_width="match_parent" android:layout_height="140dp" android:inAnimation="@anim/fade_in" android:outAnimation="@anim/fade_out" android:layout_weight="4.5"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/buy_price" android:layout_width="match_parent" android:layout_height="30dp" android:layout_marginTop="4dp" android:layout_weight="3">
+            <TextView android:textAppearance="@style/PushTitle" android:gravity="center" android:id="@+id/product_name" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="2"/>
+            <Button android:textAppearance="@style/PushMessage" android:textColor="@android:color/white" android:id="@+id/product_action" android:background="@android:color/holo_red_dark" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_weight="3">
+            <ImageView android:id="@+id/small_image1" android:visibility="gone" android:layout_width="0dp" android:layout_height="50dp" android:layout_weight="1" android:layout_marginStart="-5dp" android:layout_marginEnd="2dp"/>
+            <ImageView android:id="@+id/small_image2" android:visibility="gone" android:layout_width="0dp" android:layout_height="50dp" android:layout_marginLeft="2dp" android:layout_marginRight="2dp" android:layout_weight="1"/>
+            <ImageView android:id="@+id/small_image3" android:visibility="gone" android:layout_width="0dp" android:layout_height="50dp" android:layout_weight="1" android:layout_marginEnd="-4dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:ads="http://schemas.android.com/apk/lib/com.inmobi.ads" xmlns:aapt="http://schemas.android.com/aapt" android:shape="rectangle">
+    <solid android:color="@color/follow_solid_color"/>
+    <stroke android:width="@dimen/follow_stroke_width" android:color="@color/follow_stroke_color"/>
+    <size android:height="@dimen/follow_btn_height" android:width="@dimen/follow_btn_width"/>
+    <corners android:radius="@dimen/gb_following_radius"/>
+</shape>

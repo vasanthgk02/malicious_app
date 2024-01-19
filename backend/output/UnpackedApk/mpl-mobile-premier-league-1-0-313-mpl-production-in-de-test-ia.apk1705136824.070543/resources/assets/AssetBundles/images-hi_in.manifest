@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 601437930
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3b125a02d022f5545e99ec2c6f0aecf6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cb3f6df5cbc4a2990c44c2787bc9553a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/localization/images/hi_IN/tie.png
+- Assets/localization/images/hi_IN/fairPlayRejectedScore.png
+- Assets/localization/images/hi_IN/fairPlayVerified.png
+- Assets/localization/images/hi_IN/youLose.png
+- Assets/localization/images/hi_IN/youWin.png
+- Assets/localization/images/hi_IN/watchGameReplay.png
+Dependencies: []

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/paynimo_backgroundColor" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/paynimo_note_lyt" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="5dp">
+        <com.paynimo.android.payment.CustomTextView android:textColor="@android:color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/paynimo_upi_note_label" style="@style/TextViewPaynimo"/>
+        <com.paynimo.android.payment.CustomTextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/paynimo_upi_note1_label" style="@style/TextViewPaynimo"/>
+        <com.paynimo.android.payment.CustomTextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/paynimo_upi_note2_label" style="@style/TextViewPaynimo"/>
+    </LinearLayout>
+    <com.paynimo.android.payment.CustomEditText android:id="@+id/paynimo_et_search_bank" android:background="#00000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/paynimo_netbanking_bank_search_hint" android:drawableLeft="@drawable/ic_menu_search_holo_light" android:drawablePadding="0dp" android:inputType="textCapCharacters"/>
+    <ListView android:id="@+id/paynimo_list" android:background="@drawable/paynimo_list_selector" android:focusable="false" android:descendantFocusability="afterDescendants" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@color/paynimo_listDividerColor" android:dividerHeight="1dp"/>
+    <com.paynimo.android.payment.CustomButton android:layout_gravity="center_horizontal" android:id="@+id/paynimo_upi_pay_btn" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="15dp" android:layout_marginTop="30dp" android:text="@string/paynimo_imps_trigger_btn_default" style="@style/ButtonPaynimo"/>
+</LinearLayout>

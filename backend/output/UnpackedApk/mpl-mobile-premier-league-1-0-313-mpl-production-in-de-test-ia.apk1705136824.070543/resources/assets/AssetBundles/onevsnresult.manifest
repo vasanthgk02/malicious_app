@@ -1,0 +1,85 @@
+ManifestFileVersion: 0
+CRC: 3860212434
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9f9430a0a525819cf4226d4ef5b64b3c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b3d9b197e1cd832fe7cd6b33548b4c54
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 004bb22ab91894af1988a375404d7039, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 098bb10c4c405420f9c9bdfc3115890c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1334e07377b3e4c0c947c767a4a60772, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2374b590699fc4236864d1d2f589eb01, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 34c0c562d9aef460faf34aaeb009a4b8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5243b074a2232462195e00d7afd7dde3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 705c2a314488746bab05831754c9393f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8270ce071fdc84816a7da5c46fdd0ca1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8ac5ff94b217a49f6b95daefb26601d1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: af88a31d2c72f4fd39a1767cfb89586d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bbeedb0b8124e4328a404a9342f8f4e2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ec58f0a05793742fb8931ac3912053bc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2a4db7a114972834c8e4117be1d82ba3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fa24a85b9fded4bf4a758e45c1b878db, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5305a4ec079c44811bdd11d02de9274b, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/MyPrefabs/MPLSDKObject/Portrait/1vsNResultPortrait.prefab
+- Assets/MyPrefabs/MPLSDKObject/Landscape/1vsNResultLand.prefab
+Dependencies:
+- D:/jenkins/workspace/unity-app-pipeline/unity-app/Assets/StreamingAssets/AssetBundles/onevsoneresult
+- D:/jenkins/workspace/unity-app-pipeline/unity-app/Assets/StreamingAssets/AssetBundles/images

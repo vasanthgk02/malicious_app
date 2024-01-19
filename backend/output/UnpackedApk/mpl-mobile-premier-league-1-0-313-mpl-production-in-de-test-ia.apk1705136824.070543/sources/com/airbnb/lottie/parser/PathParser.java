@@ -1,0 +1,13 @@
+package com.airbnb.lottie.parser;
+
+import android.graphics.PointF;
+import com.airbnb.lottie.parser.moshi.JsonReader;
+import java.io.IOException;
+
+public class PathParser implements ValueParser<PointF> {
+    public static final PathParser INSTANCE = new PathParser();
+
+    public Object parse(JsonReader jsonReader, float f2) throws IOException {
+        return JsonUtils.jsonToPoint(jsonReader, f2);
+    }
+}

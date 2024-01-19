@@ -1,0 +1,322 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2020-07-28 13:55:33",
+    "containerVersion": {
+        "path": "accounts/3911184326/containers/32013217/versions/5",
+        "accountId": "3911184326",
+        "containerId": "32013217",
+        "containerVersionId": "5",
+        "container": {
+            "path": "accounts/3911184326/containers/32013217",
+            "accountId": "3911184326",
+            "containerId": "32013217",
+            "name": "MPL_Android",
+            "publicId": "GTM-P74KR4W",
+            "usageContext": [
+                "ANDROID_SDK_5"
+            ],
+            "fingerprint": "1595510166207",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/3911184326/containers/32013217/workspaces?apiLink=container"
+        },
+        "tag": [
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "tagId": "5",
+                "name": "GA_ScreenViewTag",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_SCREENVIEW"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{GA_SettingVariable}}"
+                    }
+                ],
+                "fingerprint": "1595510878987",
+                "firingTriggerId": [
+                    "2147479556"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "tagId": "6",
+                "name": "Events",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Test"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{GA_SettingVariable}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendFirebaseCampaignData",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "{{Event Name}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "Test"
+                    }
+                ],
+                "fingerprint": "1595944511604",
+                "firingTriggerId": [
+                    "2147479556"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "variableId": "3",
+                "name": "GA_SettingVariable",
+                "type": "gas",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "collectAdid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "UA-124531741-7"
+                    }
+                ],
+                "fingerprint": "1595523649352"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "variableId": "4",
+                "name": "GA_CrossDomain",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "dweb.mpl.live,help.mpl.live,blog.mpl.live,about.mpl.live"
+                    }
+                ],
+                "fingerprint": "1595510778988"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "CONTAINER_VERSION",
+                "name": "Container Version"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "RANDOM_NUMBER",
+                "name": "Random Number"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "CONTAINER_ID",
+                "name": "Container ID"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "APP_ID",
+                "name": "App ID"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "APP_NAME",
+                "name": "App Name"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "APP_VERSION_CODE",
+                "name": "App Version Code"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "LANGUAGE",
+                "name": "Language"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "OS_VERSION",
+                "name": "OS Version"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "PLATFORM",
+                "name": "Platform"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "SDK_VERSION",
+                "name": "SDK Version"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "DEVICE_NAME",
+                "name": "Device Name"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "RESOLUTION",
+                "name": "Screen Resolution"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "ADVERTISER_ID",
+                "name": "Advertiser ID"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "ADVERTISING_TRACKING_ENABLED",
+                "name": "Advertiser Tracking Enabled"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "APP_VERSION_NAME",
+                "name": "App Version Name"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "EVENT_NAME",
+                "name": "Event Name"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "FIREBASE_EVENT_PARAMETER_CAMPAIGN",
+                "name": "Campaign Name"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "FIREBASE_EVENT_PARAMETER_CAMPAIGN_ACLID",
+                "name": "Click ID (aclid)"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "FIREBASE_EVENT_PARAMETER_CAMPAIGN_ANID",
+                "name": "Ad Network ID (anid)"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "FIREBASE_EVENT_PARAMETER_CAMPAIGN_CLICK_TIMESTAMP",
+                "name": "Campaign Click Timestamp"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "FIREBASE_EVENT_PARAMETER_CAMPAIGN_CONTENT",
+                "name": "Campaign Content"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "FIREBASE_EVENT_PARAMETER_CAMPAIGN_CP1",
+                "name": "Campaign Custom Parameter 1"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "FIREBASE_EVENT_PARAMETER_CAMPAIGN_GCLID",
+                "name": "Google Click ID (gclid)"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "FIREBASE_EVENT_PARAMETER_CAMPAIGN_SOURCE",
+                "name": "Campaign Source"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "FIREBASE_EVENT_PARAMETER_CAMPAIGN_TERM",
+                "name": "Campaign Search Term"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "FIREBASE_EVENT_PARAMETER_DYNAMIC_LINK_ACCEPT_TIME",
+                "name": "Dynamic Link Accept Time"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "FIREBASE_EVENT_PARAMETER_DYNAMIC_LINK_LINKID",
+                "name": "Dynamic Link ID"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "FIREBASE_EVENT_PARAMETER_PREVIOUS_APP_VERSION",
+                "name": "Previous Application Version"
+            },
+            {
+                "accountId": "3911184326",
+                "containerId": "32013217",
+                "type": "FIREBASE_EVENT_PARAMETER_PREVIOUS_OS_VERSION",
+                "name": "Previous OS Version"
+            }
+        ],
+        "fingerprint": "1595944517858",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/3911184326/containers/32013217/versions/5?apiLink=version"
+    }
+}

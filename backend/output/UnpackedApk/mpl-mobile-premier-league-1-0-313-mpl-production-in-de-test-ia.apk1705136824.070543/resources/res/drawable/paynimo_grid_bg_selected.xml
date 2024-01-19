@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:ads="http://schemas.android.com/apk/lib/com.inmobi.ads" xmlns:aapt="http://schemas.android.com/aapt" android:shape="rectangle">
+    <solid android:color="@color/paynimo_backgroundColor"/>
+    <corners android:radius="2dp"/>
+    <stroke android:width="2dp" android:color="@color/paynimo_buttonDefaultColor"/>
+</shape>

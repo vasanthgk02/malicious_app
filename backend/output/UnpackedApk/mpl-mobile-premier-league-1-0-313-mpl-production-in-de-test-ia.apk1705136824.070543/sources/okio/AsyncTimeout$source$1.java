@@ -1,0 +1,69 @@
+package okio;
+
+import com.android.tools.r8.GeneratedOutlineSupport;
+import java.io.IOException;
+import kotlin.Metadata;
+import kotlin.jvm.internal.Intrinsics;
+
+@Metadata(bv = {1, 0, 3}, d1 = {"\u0000+\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0010\t\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0000*\u0001\u0000\b\n\u0018\u00002\u00020\u0001J\b\u0010\u0002\u001a\u00020\u0003H\u0016J\u0018\u0010\u0004\u001a\u00020\u00052\u0006\u0010\u0006\u001a\u00020\u00072\u0006\u0010\b\u001a\u00020\u0005H\u0016J\b\u0010\t\u001a\u00020\nH\u0016J\b\u0010\u000b\u001a\u00020\fH\u0016¨\u0006\r"}, d2 = {"okio/AsyncTimeout$source$1", "Lokio/Source;", "close", "", "read", "", "sink", "Lokio/Buffer;", "byteCount", "timeout", "Lokio/AsyncTimeout;", "toString", "", "okio"}, k = 1, mv = {1, 4, 1})
+/* compiled from: AsyncTimeout.kt */
+public final class AsyncTimeout$source$1 implements Source {
+    public final /* synthetic */ Source $source;
+    public final /* synthetic */ AsyncTimeout this$0;
+
+    public AsyncTimeout$source$1(AsyncTimeout asyncTimeout, Source source) {
+        this.this$0 = asyncTimeout;
+        this.$source = source;
+    }
+
+    public void close() {
+        AsyncTimeout asyncTimeout = this.this$0;
+        asyncTimeout.enter();
+        try {
+            this.$source.close();
+            if (asyncTimeout.exit()) {
+                throw asyncTimeout.access$newTimeoutException(null);
+            }
+        } catch (IOException e2) {
+            e = e2;
+            if (asyncTimeout.exit()) {
+                e = asyncTimeout.access$newTimeoutException(e);
+            }
+            throw e;
+        } finally {
+            boolean exit = asyncTimeout.exit();
+        }
+    }
+
+    public long read(Buffer buffer, long j) {
+        Intrinsics.checkNotNullParameter(buffer, "sink");
+        AsyncTimeout asyncTimeout = this.this$0;
+        asyncTimeout.enter();
+        try {
+            long read = this.$source.read(buffer, j);
+            if (!asyncTimeout.exit()) {
+                return read;
+            }
+            throw asyncTimeout.access$newTimeoutException(null);
+        } catch (IOException e2) {
+            e = e2;
+            if (asyncTimeout.exit()) {
+                e = asyncTimeout.access$newTimeoutException(e);
+            }
+            throw e;
+        } finally {
+            boolean exit = asyncTimeout.exit();
+        }
+    }
+
+    public String toString() {
+        StringBuilder outline73 = GeneratedOutlineSupport.outline73("AsyncTimeout.source(");
+        outline73.append(this.$source);
+        outline73.append(')');
+        return outline73.toString();
+    }
+
+    public AsyncTimeout timeout() {
+        return this.this$0;
+    }
+}

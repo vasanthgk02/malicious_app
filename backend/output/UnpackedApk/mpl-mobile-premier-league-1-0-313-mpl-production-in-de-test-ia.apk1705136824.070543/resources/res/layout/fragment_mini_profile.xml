@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="end" android:id="@+id/close_btn" android:padding="@dimen/close_btn_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/close" app:srcCompat="@drawable/ic_sheet_close"/>
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/gb_tracks_bottom_sheet_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.mpl.androidapp.miniprofile.view.customviews.MiniProfileView android:id="@+id/profileViewId" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <com.mpl.androidapp.miniprofile.view.customviews.MiniProfileLoadingView android:id="@+id/profileLoadingViewId" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <com.mpl.androidapp.miniprofile.view.customviews.GameStreamErrorView android:id="@+id/profileErrorViewId" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

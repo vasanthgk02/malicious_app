@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:ads="http://schemas.android.com/apk/lib/com.inmobi.ads" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/sv_main" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/tv_face" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Face capture"/>
+            <RadioGroup android:id="@+id/face_value" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/none_liveness" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="None"/>
+                <RadioButton android:id="@+id/texture_liveness" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="TextureLiveness"/>
+                <RadioButton android:id="@+id/gesture_liveness" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Gesture and Texture liveness"/>
+            </RadioGroup>
+            <TextView android:textStyle="bold" android:textColor="#ff0000ee" android:id="@+id/tv_card" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="CARD"/>
+            <TextView android:textStyle="bold" android:textColor="#ff0000ee" android:id="@+id/tv_passport" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="PASSPORT"/>
+            <TextView android:textStyle="bold" android:textColor="#ff0000ee" android:id="@+id/tv_a4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="A4"/>
+            <TextView android:textStyle="bold" android:textColor="#ff0000ee" android:id="@+id/tv_other" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="OTHER"/>
+            <TextView android:textStyle="bold" android:id="@+id/tv_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text=""/>
+            <ImageButton android:id="@+id/iv_result" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerInside"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.ConstraintLayout>

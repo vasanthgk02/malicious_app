@@ -1,0 +1,34 @@
+package com.google.android.gms.auth.api.identity;
+
+import android.os.Parcel;
+import android.os.Parcelable.Creator;
+import com.google.android.gms.common.internal.safeparcel.SafeParcelReader;
+
+/* compiled from: com.google.android.gms:play-services-auth@@20.1.0 */
+public final class zbk implements Creator {
+    public final Object createFromParcel(Parcel parcel) {
+        int validateObjectHeader = SafeParcelReader.validateObjectHeader(parcel);
+        SignInPassword signInPassword = null;
+        String str = null;
+        int i = 0;
+        while (parcel.dataPosition() < validateObjectHeader) {
+            int readInt = parcel.readInt();
+            char c2 = (char) readInt;
+            if (c2 == 1) {
+                signInPassword = (SignInPassword) SafeParcelReader.createParcelable(parcel, readInt, SignInPassword.CREATOR);
+            } else if (c2 == 2) {
+                str = SafeParcelReader.createString(parcel, readInt);
+            } else if (c2 != 3) {
+                SafeParcelReader.skipUnknownField(parcel, readInt);
+            } else {
+                i = SafeParcelReader.readInt(parcel, readInt);
+            }
+        }
+        SafeParcelReader.ensureAtEnd(parcel, validateObjectHeader);
+        return new SavePasswordRequest(signInPassword, str, i);
+    }
+
+    public final /* synthetic */ Object[] newArray(int i) {
+        return new SavePasswordRequest[i];
+    }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/view_custom_dialog_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView android:paddingBottom="@dimen/margin_min" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_min" app:cardBackgroundColor="@color/popup_background" app:cardCornerRadius="8dp" app:cardElevation="8dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/CustomDialogContent">
+            <TextView android:id="@+id/dialog_title" android:tag="binding_1" android:padding="@dimen/text_padding" style="@style/CustomDialogTitle"/>
+            <View android:background="@color/divider_gray" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <TextView android:textSize="20sp" android:textColor="@color/custom_dialog_title" android:gravity="center" android:id="@+id/description_big" android:tag="binding_2" android:padding="@dimen/text_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/text_padding" android:paddingEnd="@dimen/text_padding"/>
+            <ImageView android:id="@+id/popup_logo" android:tag="binding_3" style="@style/CustomDialogIcon"/>
+            <TextView android:textSize="16sp" android:gravity="center" android:id="@+id/description_small" android:tag="binding_4" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/text_margin" android:layout_marginBottom="@dimen/margin_min" android:maxHeight="350dp" android:paddingStart="@dimen/text_padding" android:paddingEnd="@dimen/text_padding"/>
+            <FrameLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/custom_view_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_min" android:foregroundGravity="center"/>
+            <Button android:textStyle="bold" android:id="@+id/action_button" android:tag="binding_5" android:background="@drawable/round_button_dialog_blue" android:layout_height="40dp" android:layout_marginBottom="@dimen/text_margin" android:textAllCaps="false" style="@style/TriviaAppRoundButton"/>
+            <Button android:textStyle="bold" android:id="@+id/secondary_action_button" android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="40dp" android:layout_marginBottom="@dimen/text_margin" android:textAllCaps="false" style="@style/TriviaAppFlatButton.Gray"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

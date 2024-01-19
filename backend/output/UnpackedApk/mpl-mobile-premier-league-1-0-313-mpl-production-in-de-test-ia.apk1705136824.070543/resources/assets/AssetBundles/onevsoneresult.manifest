@@ -1,0 +1,146 @@
+ManifestFileVersion: 0
+CRC: 3868450508
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bee4ef3e2cf1775f8f4735fad15d20e1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b54c8da68ea595a3c12b26f33dfab735
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 004bb22ab91894af1988a375404d7039, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 098bb10c4c405420f9c9bdfc3115890c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1334e07377b3e4c0c947c767a4a60772, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1a9fffd59f56540e1a2c646b045c783b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2374b590699fc4236864d1d2f589eb01, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3dfe5c3632efa4bdab23bc995161f293, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5c7183a159f504d48aa70a40b020fc5d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 705c2a314488746bab05831754c9393f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8270ce071fdc84816a7da5c46fdd0ca1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8ac5ff94b217a49f6b95daefb26601d1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: af88a31d2c72f4fd39a1767cfb89586d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d0b85fee7702d46eb901facc6239018b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8ffe9a411087545fcbcae4294e4dd466, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2984b483a596f435d9bf370e32c8fa97, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c165a036678f343f68bc07b16cb4fb4e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d423e1463c091468b88d5c5feb9d99c3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 986890e67702341418d5898f319f9885, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b51b36aa4c0be45c7b7030068a42e0da, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/UI/1vs1Result/1vn15.png
+- Assets/UI/1vs1Result/1vn12.png
+- Assets/UI/1vs1Result/MPLFairPlay.png
+- Assets/UI/1vs1Result/winnerBkg.png
+- Assets/UI/1vs1Result/tie.png
+- Assets/UI/1vs1Result/fairPlayVerified.png
+- Assets/UI/1vs1Result/redButton.png
+- Assets/UI/1vs1Result/crown1VN.png
+- Assets/UI/1vs1Result/1vNOpponentWon.png
+- Assets/UI/1vs1Result/1vn2.png
+- Assets/MyPrefabs/Ludo_ResultScreen/1v1LudoResultPortrait_v2.prefab
+- Assets/UI/1vs1Result/1vn14.png
+- Assets/UI/1vs1Result/waitingForOpponentToFinish.png
+- Assets/UI/1vs1Result/fairPlayRed.png
+- Assets/UI/1vs1Result/1v1BkgLostLand.jpg
+- Assets/UI/1vs1Result/1v1BkgLost.jpg
+- Assets/UI/1vs1Result/1vn3.png
+- Assets/UI/1vs1Result/hexagon.png
+- Assets/UI/1vs1Result/youWin.png
+- Assets/UI/1vs1Result/searchingForOpponent.png
+- Assets/UI/1vs1Result/1vn13.png
+- Assets/UI/1vs1Result/1v1BkgWon.jpg
+- Assets/UI/1vs1Result/1vn11.png
+- Assets/UI/1vs1Result/submittingLatestScore.png
+- Assets/UI/1vs1Result/fairPlayRejectedScore.png
+- Assets/UI/1vs1Result/GreyButton.png
+- Assets/UI/1vs1Result/1vNBkgLand.png
+- Assets/UI/1vs1Result/1vn8.png
+- Assets/UI/1vs1Result/disconnectedDueToBadNetwork.png
+- Assets/UI/1vs1Result/disconnectedDueToServer.png
+- Assets/UI/1vs1Result/greenButtonFill.png
+- Assets/UI/1vs1Result/1VNPlayerWon.png
+- Assets/UI/1vs1Result/profileBkg.png
+- Assets/UI/1vs1Result/yellowButton.png
+- Assets/UI/1vs1Result/circle.png
+- Assets/UI/1vs1Result/1vn5.png
+- Assets/UI/1vs1Result/searching.png
+- Assets/UI/1vs1Result/1vn10.png
+- Assets/UI/1vs1Result/1vn1.png
+- Assets/UI/1vs1Result/1v1BkgWonLand.jpg
+- Assets/UI/1vs1Result/imgSearching.png
+- Assets/UI/1vs1Result/profileWinner1vN.png
+- Assets/UI/1vs1Result/ic_cloud_done_24px.png
+- Assets/UI/1vs1Result/gradient.png
+- Assets/UI/1vs1Result/profileBkg-Opponent.png
+- Assets/UI/1vs1Result/profileNormal.png
+- Assets/UI/1vs1Result/1vn16.png
+- Assets/UI/1vs1Result/youLose.png
+- Assets/UI/1vs1Result/1vn9.png
+- Assets/UI/1vs1Result/1vNNormal.png
+- Assets/UI/1vs1Result/watchGameReplay.png
+- Assets/MyPrefabs/MPLSDKObject/Portrait/1vs1ResultPortrait.prefab
+- Assets/UI/1vs1Result/1vn4.png
+- Assets/UI/1vs1Result/1vn6.png
+- Assets/UI/1vs1Result/greenButton.png
+- Assets/UI/1vs1Result/1vNBkgPortrait.jpg
+- Assets/UI/1vs1Result/profileWinner.png
+- Assets/MyPrefabs/Ludo_ResultScreen/1v1LudoResultPortrait.prefab
+- Assets/UI/1vs1Result/1vn7.png
+- Assets/MyPrefabs/MPLSDKObject/Landscape/1vs1ResultLand.prefab
+Dependencies:
+- D:/jenkins/workspace/unity-app-pipeline/unity-app/Assets/StreamingAssets/AssetBundles/images

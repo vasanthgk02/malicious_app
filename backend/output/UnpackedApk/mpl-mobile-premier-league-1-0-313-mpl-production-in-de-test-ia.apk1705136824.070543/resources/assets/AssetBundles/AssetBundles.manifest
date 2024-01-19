@@ -1,0 +1,55 @@
+ManifestFileVersion: 0
+CRC: 2584877254
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: ludonodebundle
+      Dependencies:
+        Dependency_0: onevsoneresult
+        Dependency_1: images
+        Dependency_2: confetti
+        Dependency_3: countdowntimer
+    Info_1:
+      Name: mainscene
+      Dependencies:
+        Dependency_0: onevsoneresult
+        Dependency_1: images
+        Dependency_2: confetti
+        Dependency_3: countdowntimer
+    Info_2:
+      Name: localization
+      Dependencies: {}
+    Info_3:
+      Name: onevsoneresult
+      Dependencies:
+        Dependency_0: images
+    Info_4:
+      Name: fonts-global
+      Dependencies: {}
+    Info_5:
+      Name: images-en_in
+      Dependencies: {}
+    Info_6:
+      Name: images-hi_in
+      Dependencies: {}
+    Info_7:
+      Name: rummynodeassetbundle
+      Dependencies: {}
+    Info_8:
+      Name: images
+      Dependencies: {}
+    Info_9:
+      Name: spinandgo
+      Dependencies:
+        Dependency_0: images
+    Info_10:
+      Name: onevsnresult
+      Dependencies:
+        Dependency_0: onevsoneresult
+        Dependency_1: images
+    Info_11:
+      Name: confetti
+      Dependencies: {}
+    Info_12:
+      Name: countdowntimer
+      Dependencies: {}

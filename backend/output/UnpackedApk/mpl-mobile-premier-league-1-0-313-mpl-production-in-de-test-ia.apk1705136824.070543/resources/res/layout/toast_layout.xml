@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/custom_toast_layout" android:background="@drawable/toast_bg" android:padding="@dimen/padding_16" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/padding_16">
+    <ImageView android:layout_width="56dp" android:layout_height="56dp" android:layout_marginRight="@dimen/padding_12" android:src="@drawable/mpl_avatar" android:scaleType="centerCrop" android:layout_marginEnd="@dimen/padding_12"/>
+    <LinearLayout android:gravity="left" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="16sp" android:textColor="@color/black_error" android:id="@+id/title" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/choose_a_whatsapp_group"/>
+        <TextView android:textSize="14sp" android:textColor="@color/black_error_60" android:id="@+id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/earn_more_when_more_friends_join_mpl"/>
+    </LinearLayout>
+</LinearLayout>

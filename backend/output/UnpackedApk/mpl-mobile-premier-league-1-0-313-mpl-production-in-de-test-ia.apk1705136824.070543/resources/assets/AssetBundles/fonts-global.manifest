@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 1205808672
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8bf5e5e0fd180713bf1d69dac11ba3d8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bc1f5b8820400fc489a2076f26c17d29
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+Assets:
+- Assets/UI/Fonts/Global Font/KRDEV_TMP-Medium.asset
+- Assets/UI/Fonts/Global Font/KRDEV-Bold.ttf
+- Assets/UI/Fonts/Global Font/KRDEV_TMP-Regular.asset
+- Assets/UI/Fonts/Global Font/KRDEV_TMP-Bold.asset
+- Assets/UI/Fonts/Global Font/KRDEV-Regular.TTF
+- Assets/UI/Fonts/Global Font/KRDEV-Medium.ttf
+Dependencies: []

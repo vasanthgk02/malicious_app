@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:ads="http://schemas.android.com/apk/lib/com.inmobi.ads" xmlns:aapt="http://schemas.android.com/aapt" android:height="24dp" android:width="20dp" android:viewportWidth="20" android:viewportHeight="24">
+    <path android:fillColor="@color/play_button_color_gb" android:pathData="M19.0909,10.3232C20.303,11.0684 20.303,12.9316 19.0909,13.6768L2.7273,23.7377C1.5151,24.483 0,23.5514 0,22.0609L0,1.9391C0,0.4486 1.5151,-0.483 2.7273,0.2623L19.0909,10.3232Z"/>
+</vector>

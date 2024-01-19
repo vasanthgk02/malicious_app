@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/NotificationMainContainer">
+    <ImageView android:id="@+id/notification_sender_avatar" style="@style/NotificationSenderIcon"/>
+    <ImageView android:id="@+id/notification_gameIcon" android:layout_alignTop="@+id/notification_sender_avatar" android:layout_toStartOf="@+id/notification_groupIcon" style="@style/NotificationGameIcon"/>
+    <ImageView android:id="@+id/notification_groupIcon" style="@style/NotificationLargeIcon"/>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignTop="@+id/notification_sender_avatar" android:layout_toStartOf="@+id/notification_gameIcon" android:layout_toEndOf="@+id/notification_sender_avatar" layout="@layout/notification_content_layout"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/action_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="32dp" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:layout_below="@+id/notification_content" android:layout_alignStart="@+id/notification_content">
+        <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="@color/notif_action_button" android:gravity="center_vertical" android:id="@+id/notification_reply" android:visibility="gone" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/reply" android:layout_weight="1" android:textAllCaps="true" android:fontFamily="sans-serif-condensed"/>
+        <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="@color/notif_action_button" android:gravity="center_vertical" android:id="@+id/notification_open_group" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/open_group" android:layout_weight="1" android:textAllCaps="true" android:fontFamily="sans-serif-condensed"/>
+    </LinearLayout>
+</RelativeLayout>

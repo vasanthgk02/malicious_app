@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:ads="http://schemas.android.com/apk/lib/com.inmobi.ads" xmlns:aapt="http://schemas.android.com/aapt" android:height="18.7dp" android:width="18.7dp" android:viewportWidth="56" android:viewportHeight="56">
+    <path android:fillColor="#ff99ca3e" android:pathData="M28,28m-26,0a26,26 0,1 1,52 0a26,26 0,1 1,-52 0" android:strokeColor="#ff99ca3e" android:strokeWidth="4" android:fillType="1"/>
+    <path android:fillColor="#ffffffff" android:pathData="M39.1517,15.818L39.1517,15.818A2.634,2.634 73.9999,0 1,40.1785 19.3988L28.673,40.1552A2.634,2.634 73.9999,0 1,25.0923 41.182L25.0923,41.182A2.634,2.634 74,0 1,24.0655 37.6012L35.571,16.8448A2.634,2.634 74.0001,0 1,39.1517 15.818z" android:fillType="1"/>
+    <path android:fillColor="#ffffffff" android:pathData="M17.1014,30.7896L17.1014,30.7896A2.634,2.634 86.9999,0 1,20.8214 30.5947L27.1924,36.3311A2.634,2.634 86.9999,0 1,27.3873 40.0511L27.3873,40.0511A2.634,2.634 87.0001,0 1,23.6674 40.246L17.2964,34.5096A2.634,2.634 87,0 1,17.1014 30.7896z" android:fillType="1"/>
+</vector>

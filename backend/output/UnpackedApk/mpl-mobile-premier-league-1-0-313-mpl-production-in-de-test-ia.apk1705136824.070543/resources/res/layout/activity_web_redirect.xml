@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:ads="http://schemas.android.com/apk/lib/com.inmobi.ads" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/headerId" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/custom_braintree_margin_top" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0">
+        <ImageView android:id="@+id/bckBtnId" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_custom_back_icon"/>
+        <TextView android:textSize="@dimen/add_new_card_text_size" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enter_card_details" android:lineSpacingExtra="@dimen/add_card_line_spacing" android:layout_marginStart="@dimen/marginBottom_10"/>
+    </LinearLayout>
+    <WebView android:id="@+id/redirect_web_view" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="@+id/headerId"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
