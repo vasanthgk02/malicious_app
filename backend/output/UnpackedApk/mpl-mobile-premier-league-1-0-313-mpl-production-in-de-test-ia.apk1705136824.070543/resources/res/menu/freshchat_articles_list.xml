@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:icon="?attr/freshchatSearchIcon" android:id="@+id/freshchat_menu_item_search_solutions" android:title="@string/freshchat_menu_item_search_faqs" app:actionViewClass="androidx.appcompat.widget.SearchView" app:showAsAction="never|always|collapseActionView"/>
-    <item android:icon="?attr/freshchatContactUsIcon" android:id="@+id/freshchat_menu_item_contact_us" android:title="@string/freshchat_menu_item_contact_us" app:showAsAction="always"/>
-</menu>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/NotificationMainContainer">
-    <ImageView android:id="@+id/notification_sender_avatar" style="@style/NotificationSenderIcon"/>
-    <ImageView android:id="@+id/notification_groupIcon" android:layout_alignTop="@+id/notification_sender_avatar" style="@style/NotificationLargeIcon"/>
-    <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignTop="@+id/notification_sender_avatar" android:layout_toStartOf="@+id/notification_groupIcon" android:layout_toEndOf="@+id/notification_sender_avatar" layout="@layout/notification_content_layout"/>
-    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="@color/notif_action_button" android:gravity="center_vertical" android:id="@+id/notification_play_now" android:layout_width="101dp" android:layout_height="32dp" android:layout_marginTop="16dp" android:text="@string/play_now" android:layout_below="@+id/notification_content" android:layout_alignLeft="@+id/notification_content" android:textAllCaps="true" android:fontFamily="sans-serif-condensed" android:layout_alignStart="@+id/notification_content"/>
-</RelativeLayout>

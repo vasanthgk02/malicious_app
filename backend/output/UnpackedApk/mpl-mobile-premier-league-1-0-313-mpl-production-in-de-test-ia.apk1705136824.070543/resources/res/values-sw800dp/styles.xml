@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="ButtonRoundedRectangle">
-        <item name="android:textSize">@dimen/font_error_content_size</item>
-        <item name="android:textColor">@color/hv_white</item>
-        <item name="android:background">@drawable/drawable_rounded_button_solid</item>
-        <item name="android:fontFamily">@font/hv_muli</item>
-    </style>
-</resources>

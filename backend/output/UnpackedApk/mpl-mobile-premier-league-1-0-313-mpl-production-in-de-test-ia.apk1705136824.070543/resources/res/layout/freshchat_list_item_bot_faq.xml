@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/freschat_bot_faq_item_root_layout" android:background="?attr/freshchatActionSelectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <androidx.appcompat.widget.AppCompatImageView android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="12dp" android:layout_marginTop="12dp" android:layout_marginRight="8dp" android:layout_marginBottom="12dp" android:src="?attr/freshchatBotFAQIcon" android:layout_marginStart="12dp" android:layout_marginEnd="8dp"/>
-        <androidx.appcompat.widget.AppCompatTextView android:id="@+id/freshchat_label_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginRight="12dp" android:layout_marginBottom="12dp" android:layout_marginEnd="12dp" style="?attr/freshchatBotFAQListItemTextStyle"/>
-    </LinearLayout>
-    <View android:id="@+id/freshchat_bot_list_view_divider" android:background="@color/freshchat_bot_faq_list_divider" android:layout_width="match_parent" android:layout_height="@dimen/freshchat_bot_faq_list_divider_height"/>
-</LinearLayout>

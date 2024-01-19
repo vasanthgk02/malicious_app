@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:ads="http://schemas.android.com/apk/lib/com.inmobi.ads" xmlns:aapt="http://schemas.android.com/aapt" android:height="@dimen/gb_chevron_up_white_height" android:width="@dimen/gb_chevron_up_white_width" android:viewportWidth="24" android:viewportHeight="24">
-    <path android:fillColor="@color/gb_chevron_up_white" android:pathData="M12.6569,9.2929C12.2663,8.9024 11.6332,8.9024 11.2426,9.2929L6.2929,14.2426C5.9024,14.6332 5.9024,15.2663 6.2929,15.6569C6.6834,16.0474 7.3166,16.0474 7.7071,15.6569L11.9497,11.4142L16.1924,15.6569C16.5829,16.0474 17.2161,16.0474 17.6066,15.6569C17.9971,15.2663 17.9971,14.6332 17.6066,14.2426L12.6569,9.2929Z"/>
-</vector>

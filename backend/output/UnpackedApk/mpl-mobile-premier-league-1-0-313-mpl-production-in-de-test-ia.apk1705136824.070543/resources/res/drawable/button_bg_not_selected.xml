@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:ads="http://schemas.android.com/apk/lib/com.inmobi.ads" xmlns:aapt="http://schemas.android.com/aapt" android:shape="rectangle">
-    <gradient android:startColor="@color/white" android:endColor="@color/white" android:angle="90"/>
-    <corners android:radius="4dp"/>
-    <stroke android:width="1sp" android:color="#26190a28"/>
-</shape>

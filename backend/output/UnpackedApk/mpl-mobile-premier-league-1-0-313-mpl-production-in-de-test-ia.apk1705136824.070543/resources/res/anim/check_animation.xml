@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<set xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:ads="http://schemas.android.com/apk/lib/com.inmobi.ads" xmlns:aapt="http://schemas.android.com/aapt" android:interpolator="@android:anim/linear_interpolator" android:shareInterpolator="true" android:ordering="sequentially">
-    <objectAnimator android:duration="800" android:valueFrom="M6.9,11.28 L6.9,11.28 L6.9,11.28" android:valueTo="M6.9,11.28 L10.8,14.88 L10.8,14.88" android:valueType="pathType" android:propertyName="pathData"/>
-    <objectAnimator android:duration="500" android:valueFrom="M6.9,11.28 L10.8,14.88 L10.8,14.88" android:valueTo="M6.9,11.28 L10.8,14.88 L17.04,8.4" android:valueType="pathType" android:propertyName="pathData"/>
-</set>

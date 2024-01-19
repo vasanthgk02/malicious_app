@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:ads="http://schemas.android.com/apk/lib/com.inmobi.ads" xmlns:aapt="http://schemas.android.com/aapt" android:height="16dp" android:width="16dp" android:viewportWidth="16" android:viewportHeight="16">
-    <path android:fillColor="#00000000" android:pathData="M8,15.4284C12.1027,15.4284 15.4286,12.1025 15.4286,7.9999C15.4286,3.8972 12.1027,0.5713 8,0.5713C3.8973,0.5713 0.5714,3.8972 0.5714,7.9999C0.5714,12.1025 3.8973,15.4284 8,15.4284Z" android:strokeColor="#ff5b5b5b" android:strokeWidth="1"/>
-    <path android:fillColor="#ff5b5b5b" android:pathData="M8,4.5713C8.6781,4.5713 9.341,4.7724 9.9048,5.1491C10.4686,5.5258 10.9081,6.0613 11.1676,6.6878C11.4271,7.3143 11.495,8.0037 11.3627,8.6687C11.2304,9.3338 10.9038,9.9447 10.4243,10.4242C9.9448,10.9037 9.3339,11.2303 8.6689,11.3626C8.0038,11.4948 7.3144,11.4269 6.6879,11.1674C6.0614,10.9079 5.526,10.4685 5.1492,9.9047C4.7725,9.3408 4.5714,8.678 4.5714,7.9999C4.5714,7.0905 4.9326,6.2185 5.5756,5.5755C6.2186,4.9325 7.0907,4.5713 8,4.5713V4.5713Z"/>
-</vector>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:ads="http://schemas.android.com/apk/lib/com.inmobi.ads" xmlns:aapt="http://schemas.android.com/aapt" android:shape="rectangle">
-    <padding android:left="@dimen/gb_bubble_padding_top_bottom" android:top="@dimen/gb_bubble_padding_top_bottom" android:right="@dimen/gb_bubble_padding_top_bottom" android:bottom="@dimen/gb_bubble_padding_top_bottom"/>
-    <solid android:color="@color/gb_white"/>
-    <corners android:topLeftRadius="@dimen/gb_bubble_padding_top_bottom" android:topRightRadius="@dimen/gb_bubble_padding_top_bottom" android:bottomLeftRadius="@dimen/gb_bubble_padding_top_bottom" android:bottomRightRadius="@dimen/gb_bubble_padding_top_bottom"/>
-</shape>

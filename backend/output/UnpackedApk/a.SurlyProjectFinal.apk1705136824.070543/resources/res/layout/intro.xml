@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/a.SurlyProjectFinal" android:gravity="center" android:orientation="vertical" android:id="@+id/introLayout" android:background="@drawable/intro1" android:layout_width="match_parent" android:layout_height="match_parent">
-    <ImageView android:id="@+id/FromIntroToMain" android:background="@drawable/audacity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="matrix" android:layout_centerInParent="true"/>
-    <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="#ff9fff" android:gravity="center" android:id="@+id/text" android:paddingBottom="30dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="20px" android:text="MusicPlayer in SDCard!!"/>
-    <TextView android:textSize="20dp" android:textColor="#00f9f0" android:gravity="center" android:id="@+id/text2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="20px" android:text="touch screen"/>
-</LinearLayout>

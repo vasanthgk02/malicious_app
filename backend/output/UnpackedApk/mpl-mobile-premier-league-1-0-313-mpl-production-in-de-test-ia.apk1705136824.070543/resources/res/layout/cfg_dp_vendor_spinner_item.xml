@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:textSize="16sp" android:textColor="#ff000000" android:ellipsize="marquee" android:gravity="center" android:id="@android:id/text1" android:background="#ffffffff" android:layout_width="match_parent" android:layout_height="48dp" android:singleLine="true" android:fontFamily="@font/cfg_dp_proxima_nova_semibold" android:textAlignment="inherit" style="?android:attr/spinnerItemStyle"/>

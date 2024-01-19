@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:ads="http://schemas.android.com/apk/lib/com.inmobi.ads" android:height="12dp" android:width="36dp" android:viewportWidth="36" android:viewportHeight="12">
-    <group>
-        <clip-path android:pathData="M0,0h36v12H0z M 0,0"/>
-        <path android:fillColor="#ffffffff" android:pathData="M12.744,9.345h1.197L13.941,12L9.386,12L9.386,7.147h-0.28L7.58,12L6.336,12L4.835,7.147L4.53,7.147L4.53,12L0,12L0,9.345h1.197v-6.69L0,2.655L0,0h4.906l1.925,6.737h0.14L9.153,0h4.788v2.655h-1.197v6.69zM30.814,9.345h2.649L33.463,7.29L36,7.29L36,12L25.861,12L25.861,9.345h1.197v-6.69h-1.197L25.861,0h6.125v2.655h-1.172v6.69zM20.277,5.045L18.07,5.045l-0.187,-0.24L19.665,0h-4.34v2.655h1.197v6.69h-1.197L15.325,12h4.952L20.277,5.045zM20.274,0h0.846c2.372,0 4.014,1.81 4.008,4.152 0,2.269 -1.595,4.031 -3.918,4.031h-0.33l1.785,-4.805 -0.186,-0.24h-2.205L20.274,0z" android:fillType="1"/>
-    </group>
-</vector>

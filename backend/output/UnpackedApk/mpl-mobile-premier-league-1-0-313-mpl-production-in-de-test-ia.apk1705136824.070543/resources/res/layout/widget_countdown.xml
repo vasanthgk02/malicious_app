@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:id="@+id/countdown_layout" android:layout_width="match_parent" android:layout_height="match_parent">
-    <androidx.appcompat.widget.AppCompatTextView android:textAppearance="?android:attr/textAppearanceInverse" android:gravity="center" android:id="@+id/countdown_text" android:layout_width="match_parent" android:layout_height="match_parent" app:autoSizeTextType="1"/>
-</LinearLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:ads="http://schemas.android.com/apk/lib/com.inmobi.ads" xmlns:aapt="http://schemas.android.com/aapt" android:height="64dp" android:width="64dp" android:viewportWidth="84" android:viewportHeight="84">
-    <path android:fillColor="#ffe2574c" android:pathData="M42,0C18.7847,0 0,18.7863 0,42C0,65.2153 18.7863,84 42,84C65.2153,84 84,65.2137 84,42C84,18.7847 65.2137,0 42,0ZM42,77.4375C22.4121,77.4375 6.5625,61.5866 6.5625,42C6.5625,22.4121 22.4134,6.5625 42,6.5625C61.5879,6.5625 77.4375,22.4134 77.4375,42C77.4375,61.5879 61.5866,77.4375 42,77.4375Z"/>
-    <path android:fillColor="#ffe2574c" android:pathData="M42,21.1439C40.1878,21.1439 38.7188,22.6129 38.7188,24.4251V45.5552C38.7188,47.3675 40.1878,48.8365 42,48.8365C43.8122,48.8365 45.2812,47.3675 45.2812,45.5552V24.4251C45.2812,22.6129 43.8122,21.1439 42,21.1439Z"/>
-    <path android:fillColor="#ffe2574c" android:pathData="M42,61.7137C44.4464,61.7137 46.4297,59.7305 46.4297,57.2841C46.4297,54.8376 44.4464,52.8544 42,52.8544C39.5536,52.8544 37.5703,54.8376 37.5703,57.2841C37.5703,59.7305 39.5536,61.7137 42,61.7137Z"/>
-</vector>

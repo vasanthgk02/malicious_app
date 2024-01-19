@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/a.SurlyProjectFinal" android:orientation="vertical" android:id="@+id/RelativeLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content">
-    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="35dp">
-        <ProgressBar android:layout_gravity="center_horizontal" android:id="@+id/progressBar2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
-        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textStyle="bold" android:textColor="#fff" android:id="@+id/dialog_Message_textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="54dp" android:text="Loading...." android:layout_below="@+id/progressBar2" android:layout_centerHorizontal="true"/>
-    </LinearLayout>
-</RelativeLayout>

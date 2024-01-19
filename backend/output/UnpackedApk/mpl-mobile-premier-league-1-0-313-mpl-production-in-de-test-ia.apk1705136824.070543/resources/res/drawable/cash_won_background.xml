@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:ads="http://schemas.android.com/apk/lib/com.inmobi.ads" xmlns:aapt="http://schemas.android.com/aapt">
-    <solid android:color="@color/cash_won_bkd_color"/>
-    <corners android:radius="@dimen/rounded_corners_gamestats"/>
-</shape>
