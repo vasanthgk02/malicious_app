@@ -2,9 +2,16 @@ from os import system as sys
 import os, time
 import xml.etree.ElementTree as ET
 import csv
+import shutil
+
+
+def removeExistingFiles(folder_path):
+	# os.remove(UPLOAD_FOLDER)
+    shutil.rmtree(folder_path)
 
 def Extract():
-    DIRTYPE=["backend/file_permission/apk_uploads"]
+    # removeExistingFiles("./backend/output/")
+    DIRTYPE=["backend/apk_uploads"]
     permCollection = set()
 
     for datastoredir in DIRTYPE:
@@ -52,11 +59,12 @@ def Extract():
 
 
     permList = list(permCollection)
+    return permList
 
-    with open("backend/output/" + ApkName + "_permission.txt", 'w') as output:
-        for out in permList:
-            print(out, file=output)
-        output.close()
+    # with open("backend/output/" + ApkName + "_permission.txt", 'w') as output:
+    #     for out in permList:
+    #         print(out, file=output)
+    #     output.close()
     
 
-Extract()
+# Extract()
