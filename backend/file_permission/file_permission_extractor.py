@@ -4,20 +4,14 @@ import xml.etree.ElementTree as ET
 import csv
 import shutil
 
-
-def removeExistingFiles(folder_path):
-	# os.remove(UPLOAD_FOLDER)
-    shutil.rmtree(folder_path)
-
 def Extract():
-    # removeExistingFiles("./backend/output/")
-    DIRTYPE=["backend/apk_uploads"]
+    DIRTYPE=["/Users/vasanthgk02/Desktop/college_project/backend/apk_uploads/"]
     permCollection = set()
 
     for datastoredir in DIRTYPE:
         Flag=1
         TimeStamp = str(time.time())
-        Jdax = "backend/file_permission/Modules/jadx/bin/jadx"            # JADX MODULE PATH
+        Jdax = "/Users/vasanthgk02/Desktop/college_project/backend/file_permission/Modules/jadx/bin/jadx"            # JADX MODULE PATH
         TargetApkPath = datastoredir
         ApkNameList = os.listdir(datastoredir)
         if len(ApkNameList) == int(0):
@@ -31,8 +25,8 @@ def Extract():
             for ApkName in ApkNameList:
                 TargetApk = TargetApkPath + ApkName
 
-                sys(Jdax + " -d backend/output/UnpackedApk/" + ApkName + TimeStamp + " " + TargetApk+ " >/dev/null" )        # USE JADX TO EXTRACT FILES FROM APK AND MAINFEST.XML
-                UnpackedDir = "backend/output/UnpackedApk/" + ApkName + TimeStamp
+                sys(Jdax + " -d output/UnpackedApk/" + ApkName + TimeStamp + " " + TargetApk+ " >/dev/null" )        # USE JADX TO EXTRACT FILES FROM APK AND MAINFEST.XML
+                UnpackedDir = "output/UnpackedApk/" + ApkName + TimeStamp
                 MainfestPath = UnpackedDir + "/resources/AndroidManifest.xml"
                 try:
                     root = ET.parse(MainfestPath).getroot()
