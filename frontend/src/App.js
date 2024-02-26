@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import logo from "./logo.svg";
+import Content from "./components/Content";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.css";
+import Detail from "./components/Detail";
+
 
 function App() {
   const [fileName, setFileName] = useState("");
@@ -11,12 +15,8 @@ function App() {
 
   return (
     <>
-      <h1>Upload your file here</h1>
-      <div id="upload-form">
-        <label for="file-input">Choose Files</label>
-        <input type="file" id="file-input" onClick={handleFileChange} />
-      </div>
-      <ul id="file-list">{fileName}</ul>
+      {/* <Content/> */}
+      <Detail/>
     </>
   );
 }

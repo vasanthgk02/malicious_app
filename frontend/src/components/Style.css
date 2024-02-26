@@ -1,0 +1,50 @@
+.navbar{
+    color:aliceblue;
+    margin: 0;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.558);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    text-shadow: 0px 3px 4px rgb(22, 31, 102);
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 7px 10px rgb(21, 43, 96);
+}
+.buttonspacing{
+    padding-top: 20px;
+}
+
+.h1tag{
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 3px 7px grey;
+
+}
+.dottedoutline{
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.msg{
+    margin-top: 40px;
+}
+
+.appdesc{
+    background-color: #ffffff;
+    border-radius: 4px;
+    border-color: rgb(34, 2, 2);
+    border-width: 20px;
+    box-sizing: content-box;
+    margin-top: 30px;
+    width:200px;
+    display: flex;
+}
+.bgcolor{
+    background-image: url("D:/MINI PROJECTS/final year project/frontend/public/backgroundimage2.jpg");
+    height:1024px;
+    background-position: 0px -400px;
+}

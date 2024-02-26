@@ -61,6 +61,10 @@ def file_permission():
 		metadata = ""
 		with open("result.json") as f:
 			metadata = json.load(f)
+		
+		with open("test.json", "w") as f:
+			json.dump({"status_code": 200, "permissions": "ans", "file" : "file", "metadata": metadata}, f)
+
 		return  {"status_code": 200, "permissions": ans, "file" : file, "metadata": metadata}
 
 @app.route("/download")
