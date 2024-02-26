@@ -5,13 +5,13 @@ import csv
 import shutil
 
 def Extract():
-    DIRTYPE=["/Users/vasanthgk02/Desktop/college_project/backend/apk_uploads/"]
+    DIRTYPE=["./apk_uploads/"]
     permCollection = set()
 
     for datastoredir in DIRTYPE:
         Flag=1
         TimeStamp = str(time.time())
-        Jdax = "/Users/vasanthgk02/Desktop/college_project/backend/file_permission/Modules/jadx/bin/jadx"            # JADX MODULE PATH
+        Jdax = "./file_permission/Modules/jadx/bin/jadx"            # JADX MODULE PATH
         TargetApkPath = datastoredir
         ApkNameList = os.listdir(datastoredir)
         if len(ApkNameList) == int(0):

@@ -16,7 +16,7 @@ def removeExistingFiles():
 			os.remove(file_path)
 
 def collectFileName():
-	files = os.listdir("./backend/")
+	files = os.listdir("./")
 	for file in files:
 		file_path = os.path.join(UPLOAD_FOLDER, file)
 		if os.path.isfile(file_path):
@@ -24,14 +24,15 @@ def collectFileName():
 
 def getFileName():
 	li = []
-	for root, dirs, files in os.walk("/Users/vasanthgk02/Desktop/college_project/backend/output"):
+	for root, dirs, files in os.walk("./output"):
 		for file in files:
 			file_path = os.path.join(root, file)
 			st = "" + file_path
 			li.append(st)
 	return li
 
-UPLOAD_FOLDER = '/Users/vasanthgk02/Desktop/college_project/backend/apk_uploads'
+UPLOAD_FOLDER = './apk_uploads'
+sys("pwd")
 
 @app.route('/')
 def serverUp():
@@ -53,26 +54,22 @@ def apkUpload():
 @app.route("/analyse", methods = ["GET"])
 def file_permission():
 	if request.method == "GET":
-		sys("rm -rf /Users/vasanthgk02/Desktop/college_project/backend/output")
+		sys("rm -rf ./output")
 		ans = Extract()
 		file = getFileName()
-		sys("cd /Users/vasanthgk02/Desktop/college_project/backend/output && tar -cf UnpackedApk.tar UnpackedApk")
-		sys("cd apkcli && apkcli json ../apk_uploads/* > ../result.json")
+		sys("cd ./output && tar -cf UnpackedApk.tar UnpackedApk")
 		metadata = ""
 		with open("result.json") as f:
 			metadata = json.load(f)
 		
-		with open("test.json", "w") as f:
-			json.dump({"status_code": 200, "permissions": "ans", "file" : "file", "metadata": metadata}, f)
-
 		return  {"status_code": 200, "permissions": ans, "file" : file, "metadata": metadata}
 
 @app.route("/download")
 def downloadApk():
-	return send_file("/Users/vasanthgk02/Desktop/college_project/backend/output/UnpackedApk.tar", as_attachment=True)
+	return send_file("./output/UnpackedApk.tar", as_attachment=True)
 
 # main driver function
 if __name__ == '__main__':
-	app.run(debug=True, host="localhost", port=5001)
+	app.run(port=5001)
 
 
