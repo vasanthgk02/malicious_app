@@ -36,7 +36,7 @@ sys("pwd")
 
 @app.route('/')
 def serverUp():
-	return 'Server is up and running on port 5001'
+	return 'Server is up and running'
 
 @app.route('/apkUpload', methods = ["POST"])
 def apkUpload():
@@ -70,6 +70,6 @@ def downloadApk():
 
 # main driver function
 if __name__ == '__main__':
-	app.run(port=5001)
+	app.run()
 
 
